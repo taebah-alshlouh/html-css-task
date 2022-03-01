@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #3</title>
+    <style>
+      
+        h3{
+            padding-left: 4px;
+            color: rgb(59, 109, 216);
+            background-color: rgb(185, 210, 238);
+        }
+        p span{
+            color: rgb(109, 148, 233);
+        }
+        table,td{
+            padding: 3px;
+          border-collapse: collapse;
+          border: 1px solid;
+         }
+        tr:nth-child(odd) {
+            background-color: #cacaca;
+        }
+        
+        .cells{
+            color: rgb(52, 164, 216);
+        }
+        .cells0{
+            color: rgb(8, 66, 143);
+        }
+    .text{
+        text-align: center;
+        font-weight: bold;
+    }
+    #hci{
+        font-weight: bolder;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <h2>Dog D.Dog</h2>
+       <h3>About</h3>
+       <p>woof! woof!</p>
+        <p>Hi, I'm Dog. I love <span>User Interface Design.</span></p>
+        <h3>Courses</h3>
+        <p>Here are some courses I've taken:</p>
+             <table>
+               
+                       <tr class="text">
+                           <td>Course Number</td>
+                           <td>Course Title</td>
+                           <td>Semester Taken</td>
+                       </tr>
+                  
+                   <tr>
+                       <td colspan="3" class="text"> For Credit</td>
+                   </tr>
+                   <tr>
+                       <td class="cells0">6.813</td>
+                       <td class="cells">User Interface Design</td>
+                       <td class="cells">Spring 2014</td>
+                   </tr>
+                   <tr>
+                       <td class="cells0">6.034</td>
+                       <td>Artificial Intelligence</td>
+                       <td>Fall 2013</td>
+                   </tr>
+                   <tr>
+                       <td class="cells0">6.006</td>
+                       <td>Introduction to Algorithms</td>
+                       <td>Fall 2013</td>
+                   </tr>
+                   <tr>
+                       <td colspan="3" class="text"> Listener</td>
+                   </tr>
+                    <tr>
+                        <td class="cells"> 6.867</td>
+                        <td>Machine Learning</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                        <td class="cells">6.830</td>
+                        <td>Database Systems</td>
+                        <td>2012</td>
+                    </tr>
+               </table>
+        <h3>Interests</h3>
+          <p>I am interested <b id="hci">HCI</b>,memes,and youtube videos.</p>
+        <h3>Submit Pet Information</h3>
+        <p>Would love to know what kinds of pets you'own' (you'll never own me).Submit below!</p>
+        <br>
+        <label for="na">Name: </label><input type="text" name="name" id="na"> <br>
+        <label for="ph">Phylum: </label><input type="text" name="phylum" id="ph"><br>
+        <label for="ge">Gender: </label><input type="text" name="gender" id="ge"><br>
+        <button type="submit" value="pet_info">Submit</button>
+</body>
+</html>

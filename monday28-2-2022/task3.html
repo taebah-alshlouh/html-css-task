@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exersice #15</title>
     <style>
-        td {
-            border: 1px solid rgb(0, 0, 0);
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 5px;
         }
+    </style>
+
     </style>
 </head>
 <body>
 
    <!-- <table style="border:1px solid black;margin-left:auto;margin-right:auto;"> -->
- <table style="border:1px solid black; width: 80%; border-collapse: collapse">
+ <table style="width: 50%;"> 
     <tr>
-        <td colspan="5">Assignment 1</td>
+        <td colspan="4">Assignment 1</td>
     </tr>
     <tr>
-        <td rowspan="3" colspan="2">student</td>
+        <td rowspan="3" >student</td>
         <td>name</td>
         <td> Hashem</td>
-        <td rowspan="4"><a href="https://zu.edu.jo/ar/index.aspx?aspxerrorpath=/index.aspx">www.zu.edu.jo</a><br>
+        <td rowspan="3"><a href="https://zu.edu.jo/ar/index.aspx?aspxerrorpath=/index.aspx">www.zu.edu.jo</a><br>
         <img src="https://m.eyeofriyadh.com/directory/images/2019/06/3280753f10f7e.jpg" alt="zarqa logo pic" width="10%" height="10%">
         </td>
     </tr>
@@ -31,12 +35,12 @@
         <td><a href="H@zu.edu.jo">H@zu.edu.jo</a></td>
     </tr>
     <tr>
-        <td rowspan="2"> ID</td>
-        <td rowspan="2">20201212</td>
+        <td> ID</td>
+        <td>20201212</td>
     </tr>
     <tr>
-        <td >courses</td>
-        <td>
+        <td>courses</td>
+        <td colspan="3">
           <ol>
               <li>Programming Languages:</li>
             <ol>
@@ -54,7 +58,7 @@
         </td>
     </tr>
     <tr>
-        <td colspan="10" rowspan="5">
+        <td colspan="4">
             <h2>create new e-mail</h2>
             <p>This form is create a new e-mail at zarqa university.</p>
               <label for="fn">first Name: </label><input type="text" name="firstname" id="fn"><br><br>
@@ -74,13 +78,8 @@
                 <br><br>
         </td>
     </tr>
+  </table>
 
-
-
-
-
-
-    </table>
     
 </body>
 </html>
