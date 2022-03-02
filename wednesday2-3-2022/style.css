@@ -1,0 +1,35 @@
+h1{
+    background-color: red;
+    width: 95%;
+}
+#p1{
+    text-align: left;
+    font-size: medium;
+    width: 95%;
+    font-weight: bold;
+}
+.pic{
+  background: url("https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg") no-repeat ;
+  background-position:left center;
+  width: 400px;
+  height: 400px;
+  background-size: 400px 400px;
+}
+#wel{
+    font-size: larger;
+    text-align: center;
+   padding-right: 90px;
+    padding-top: 20px;
+    color: orange;
+}
+
+#p2{
+    font-weight: bolder;
+    color: blue;
+    text-decoration: underline;
+}
+
+#p3{
+    font-size: larger;
+    font-weight: bolder;
+}
