@@ -11,6 +11,7 @@
           border-collapse: collapse;
           padding: 5px;
         }
+        
     </style>
 
     </style>
@@ -20,22 +21,22 @@
    <!-- <table style="border:1px solid black;margin-left:auto;margin-right:auto;"> -->
  <table style="width: 50%;"> 
     <tr>
-        <td colspan="4">Assignment 1</td>
+        <td colspan="4" align="center">Assignment 1</td>
     </tr>
-    <tr>
+     <tr>
         <td rowspan="3" >student</td>
         <td>name</td>
         <td> Hashem</td>
-        <td rowspan="3"><a href="https://zu.edu.jo/ar/index.aspx?aspxerrorpath=/index.aspx">www.zu.edu.jo</a><br>
-        <img src="https://m.eyeofriyadh.com/directory/images/2019/06/3280753f10f7e.jpg" alt="zarqa logo pic" width="10%" height="10%">
-        </td>
+        <td rowspan="3" style="width:200px; height: 200px;" align="top"><a href="https://zu.edu.jo/ar/index.aspx?aspxerrorpath=/index.aspx">www.zu.edu.jo</a><br><br>
+       <img src="https://m.eyeofriyadh.com/directory/images/2019/06/3280753f10f7e.jpg" alt="zarqa logo pic" width="10%" height="10%">
+       </td>
     </tr>
     <tr>
         <td>E-mail</td>
         <td><a href="H@zu.edu.jo">H@zu.edu.jo</a></td>
     </tr>
     <tr>
-        <td> ID</td>
+        <td style="height: 100px;" > ID</td>
         <td>20201212</td>
     </tr>
     <tr>
@@ -65,7 +66,7 @@
               <label for="ln">Last Name: </label><input type="text" name="lastname" id="ln"><br><br>
               <label for="un">User Name: </label><input type="email" name="user name" id="un" placeholder="name@zu.edu.jo"> (name@domain.com)<br><br>
               <label for="pass">password: </label><input type="password" name="password" id="pass">(you must enter password)<br><br>
-              <label for="date">birthDate: </label><input type="date" name="birthDate" id="date">(yyy-mm-dd)<br><br>
+              <label for="date">birthDate: </label><input type="number" name="birthDate" id="date">(yyy-mm-dd)<br><br>
               <label for="tel">mobile number: </label><input type="tel" name="mobile number" id="tel" placeholder="(###)###~####">(###)###~####<br><br>
               <label>sex: </label><select>
                                            <option value="male">male</option>
@@ -74,7 +75,7 @@
                                        <br><br>
            
                 <button type="submit" value="submit">Submit</button>
-                <button type="reset" value="reset">reset</button>
+                <button type="reset" value="reset">Clear</button>
                 <br><br>
         </td>
     </tr>
