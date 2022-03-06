@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+</head>
+<style>
+    
+ .d1{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width 2s;
+}
+
+.d1:hover {
+  width: 300px;
+}
+    
+ .d2{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: width 2s, height 4s;
+}
+
+.d2:hover {
+  width: 300px;
+  height: 300px;
+}
+
+</style>
+<body>
+    <h1>The transition Property</h1>
+    <p> Hover over the element below, to see the transition effect:</p>
+    <div class="d1"></div>
+    <hr>
+    <div class="d2"></div>
+</body>
+</html>
