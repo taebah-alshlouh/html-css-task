@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #1 Grid</title>
+    <style>
+        
+       .parent{
+           box-sizing: border-box;
+           width: 100%;
+           height: 50%;
+           display: grid;
+           grid-template-columns: 100vh;
+           grid-template-rows: 16vh 59vh 10vh 10vh;
+       }
+       .parent > div{
+        padding: 10px;
+        
+       }
+       #d1{
+           background-color: black;
+           width: 199vh;
+           height: 12vh;
+       }
+       #d2{
+           background-color: rgb(255, 174, 0);
+           width: 125vh;
+           height: 55vh;
+           grid-row-start: 2;
+       }
+       #d3{
+           background-color: rgb(5, 107, 5);
+           width: 70vh;
+           height:55vh;
+           grid-row-start: 2;
+           grid-column-end: 15;
+       }
+       #d4{
+           background-color: rgb(8, 8, 211);
+           width: 199vh;
+           height: 20vh;
+           grid-row-start: 3;
+
+       }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+          <div id="d1"></div>
+          <div id="d2"></div>
+          <div id="d3"></div>
+          <div id="d4"></div>
+<div></div>
+<div></div>
+
+
+    </div>
+    
+</body>
+</html>
