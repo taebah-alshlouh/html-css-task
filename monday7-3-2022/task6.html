@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+    <style>
+
+    *{
+       box-sizing: border-box;
+    }
+       .parent{
+         width: 230vh;
+         height: 200vh;
+         display: grid;
+         grid-template: 40vh  34vh  34vh /110vh  50vh;
+         
+       }
+
+      img{
+           width: 240px;
+           height: 240px;
+       }
+
+       #redp{
+         width: 250px;
+         height: 220px;
+         font-size:1.7vh ;
+        background-color: red;
+       }
+
+      #bluep{
+          background-color: blue;
+          width: 250px;
+         height: 235px;
+         font-size:1.7vh ;
+         grid-row-start: 3;
+        grid-column-start: 2 ;
+
+      }
+
+      #woman{
+        grid-row-start: 4;
+        grid-column-start: 2 ;
+      }
+
+      .dinside{
+          grid-row-start: 2;
+          width: 100vh;
+          height: 65vh;
+          display: grid;
+          grid-template-rows: 34vh 33vh;
+          grid-template-columns: 34vh 31vh;
+      }
+
+      .dinside #redp{
+        grid-row-start:1;
+        grid-column-start: 3;
+      }
+
+      .dinside #vase{
+         grid-row-start: 2;
+         grid-column-start: 2;
+      }
+     
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div>
+            <img src="https://i.pinimg.com/originals/b7/dd/fc/b7ddfc81461912a195bd153da8791a04.jpg" alt="woman pic"> 
+             <img src="https://i5.walmartimages.com/asr/055d2af6-887e-46cc-86cd-51112b945fd1_1.5ee8594ff8a3594313768bb8e6d5ebd6.jpeg" alt="woman pic">
+              <img src="https://imgix.ranker.com/node_img/1192/23831690/original/portrait-of-maria-dietsch-artwork-photo-1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375" alt="woman pic">
+        </div>
+
+   <div class="dinside">
+        <div id="redp">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+        </div>
+
+        <div id="vase"> 
+            <img src="https://i.pinimg.com/originals/f7/7e/62/f77e62bb6356793f2bacb25a9db35c70.jpg" alt="a classic vase painting">
+        </div>
+    </div>
+        <div id="bluep">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+
+        <div id="woman">
+            <img src="https://media.istockphoto.com/photos/young-asian-happy-woman-painting-interior-wal-picture-id891455684?k=20&m=891455684&s=612x612&w=0&h=lnrp2cgIAT5I_QILM6HNsaKGMOVjdt4F6dWhkQwNYXM=" alt="happy woman painting">
+        </div>
+       
+
+    </div>
+</body>
+</html>
