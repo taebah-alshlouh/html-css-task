@@ -1,20 +1,23 @@
 *{
     box-sizing: border-box;
 }
-.container{
-   
-    width:150vh;
-}
+
 .grey{
     background-color: grey;
-    width:150vh;
-    height: 20vh;
+    height: 150px;
 }
 .blue{
 background-color: blue;
+    height: 150px;
 
 }
 .yellow{
 background-color: yellow;
+   height: 150px;
+}
+.lightblue{
+ 
+    background-color: lightblue;
+    height: 150px;
 }
 

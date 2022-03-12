@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="bootstrap-min.css">
-    <title>Document</title>
+    <title>Bootstrap Mini-Project</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center"> 
 
       <div  class="container-fluid">
         <ul class="navbar-nav">
@@ -26,7 +26,9 @@
                 <a class="nav-link" href="#">contact</a>
             </li>
         </ul>
-     
+   
+
+        
         <div class="btn-group">
             <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
               Dropdown
@@ -43,55 +45,56 @@
               <input type="password" class="form-control mr-sm-2" placeholder="Password">
               <input type="submit"  class="btn btn-success" value="sign in">
           </form>
-      </ul>
+      
      </div>
     </nav>
     
-    <main>
-
-        <div class="container-fluid">
-            <div class="jumbotron">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        
+        <div class="jumbotron">
+             <div class="container-fluid">
+               <div class="container">
+                 <h1 class="display-4"><b>Hello, world!</b></h1>
+                <p class="lead"><b>This is Exercise #9.It include a large callout called a jumbotron and three supporting pieces of content</b></p>
                 <p class="lead">
                   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </p>
+                </div>
               </div>
         </div>
+
 
         <div class="container">
-            <div class="alert alert-warning" role="alert">
-                This is a warning alert—check it out!
-              </div>
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Warning!</strong> Your subscription is about to expire in 3 days.
+          </div>
         </div>
-
+        
         <div class="container">
 
             <div class="row">
                 <div class="col-md-4">
                   <h2>Heading</h2>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et sunt hic fugiat corporis quam, exercitationem molestiae unde, saepe maxime quia maiores inventore velit porro deserunt eius architecto odit accusamus officia. </p>
-                  <p><a class="btn btn-secondary" href="#" role="button"><span class="fa fa-bar-chart-o"></span>
-                      View details &raquo;</a></p>
+                  <p><a class="btn btn-outline-secondary" href="#" role="button"><span class="fa fa-bar-chart-o"></span>
+                      View details</a></p>
                 </div>
                 <div class="col-md-4">
                   <h2>Heading</h2>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et sunt hic fugiat corporis quam, exercitationem molestiae unde, saepe maxime quia maiores inventore velit porro deserunt eius architecto odit accusamus officia. </p>
-                  <p><a class="btn btn-secondary" href="#" role="button"><span class="fa fa-mobile">
-                      View details &raquo;</a></p>
+                  <p><a class="btn btn-outline-secondary" href="#" role="button"><span class="fa fa-mobile">
+                      View details</a></p>
                 </div>
                 <div class="col-md-4">
                   <h2>Heading</h2>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et sunt hic fugiat corporis quam, exercitationem molestiae unde, saepe maxime quia maiores inventore velit porro deserunt eius architecto odit accusamus officia.</p>
-                  <p><a class="btn btn-secondary" href="#" role="button"> <span class="fa fa-crosshairs"></span>
-                       View details &raquo;</a></p>
+                  <p><i class="fa fa-bar-chart-o"></i><a class="btn btn-outline-secondary" href="#" role="button"> <span class="fa fa-crosshairs"></span>
+                       View details </a></p>
                 </div>    
             </div>  
           </div>
         
-    </main>
+   
 
 </body>
 </html>
